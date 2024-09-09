@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --primary-color: #1fa3a8;
+  --secondary-color: #475d5e;
+  --background-color: #f4f4f4;
+  --text-color: #565e5e;
+  --link-color: #00d4db;
+  --link-hover-color: #00a0a5;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  --primary-color: #94d1d3;
+  --background-color: #2b3333;
+  --text-color: #ffffff;
+  --link-color: #45dde3;
+  --link-hover-color: #00f7ff;
+}
+
+/* General styling */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}

@@ -1,0 +1,35 @@
+.theme-toggle {
+  width: 60px;
+  height: 25px;
+  border-radius: 20px;
+  background-color: rgb(215, 215, 215);
+}
+
+[data-theme="dark"] .theme-toggle {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #00000016;
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" %3F><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><circle cx="12" cy="12" fill="%23464646" r="5"/><path d="M21,13H20a1,1,0,0,1,0-2h1a1,1,0,0,1,0,2Z" fill="%23464646"/><path d="M4,13H3a1,1,0,0,1,0-2H4a1,1,0,0,1,0,2Z" fill="%23464646"/><path d="M17.66,7.34A1,1,0,0,1,17,7.05a1,1,0,0,1,0-1.41l.71-.71a1,1,0,1,1,1.41,1.41l-.71.71A1,1,0,0,1,17.66,7.34Z" fill="%23464646"/><path d="M5.64,19.36a1,1,0,0,1-.71-.29,1,1,0,0,1,0-1.41L5.64,17a1,1,0,0,1,1.41,1.41l-.71.71A1,1,0,0,1,5.64,19.36Z" fill="%23464646"/><path d="M12,5a1,1,0,0,1-1-1V3a1,1,0,0,1,2,0V4A1,1,0,0,1,12,5Z" fill="%23464646"/><path d="M12,22a1,1,0,0,1-1-1V20a1,1,0,0,1,2,0v1A1,1,0,0,1,12,22Z" fill="%23464646"/><path d="M6.34,7.34a1,1,0,0,1-.7-.29l-.71-.71A1,1,0,0,1,6.34,4.93l.71.71a1,1,0,0,1,0,1.41A1,1,0,0,1,6.34,7.34Z" fill="%23464646"/><path d="M18.36,19.36a1,1,0,0,1-.7-.29L17,18.36A1,1,0,0,1,18.36,17l.71.71a1,1,0,0,1,0,1.41A1,1,0,0,1,18.36,19.36Z" fill="%23464646"/></svg>');
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+[data-theme="light"] .theme-toggle {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #00000016;
+  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" %3F><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M20.21,15.32A8.56,8.56,0,1,1,11.29,3.5a.5.5,0,0,1,.51.28.49.49,0,0,1-.09.57A6.46,6.46,0,0,0,9.8,9a6.57,6.57,0,0,0,9.71,5.72.52.52,0,0,1,.58.07A.52.52,0,0,1,20.21,15.32Z" fill="%23464646"/></svg>');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+[data-theme="light"] .theme-toggle:focus,
+[data-theme="dark"] .theme-toggle:focus {
+  outline: 2px solid #00000021;
+}
+
+[data-theme="light"] .theme-toggle:hover,
+[data-theme="dark"] .theme-toggle:hover {
+  border: 2px solid #00000025;
+  transition: 150ms;
+}
