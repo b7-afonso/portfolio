@@ -7,11 +7,13 @@ import Home from './Pages/home.tsx'
 import About from './Pages/about.tsx';
 import Work from './Pages/work.tsx';
 import ThemeToggle from './Components/themeToggle/ThemeToggle.tsx';
+import Header from './Components/header/header.tsx';
 
 function App() {
   return (
     <>
-    <ThemeToggle />
+      <ThemeToggle />
+      <Header />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
