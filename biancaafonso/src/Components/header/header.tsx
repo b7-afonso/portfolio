@@ -1,5 +1,3 @@
-import '../header/header.css'
-
 function Header () {
   return(
     <div>

@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --primary-color: #1fa3a8;
-  --secondary-color: #475d5e;
+  --secondary-color: #565656;
   --background-color: #f4f4f4;
   --text-color: #565e5e;
   --link-color: #00d4db;
@@ -11,6 +11,7 @@
 /* Dark Mode */
 [data-theme="dark"] {
   --primary-color: #94d1d3;
+  --secondary-color: #d1d1d1;
   --background-color: #2b3333;
   --text-color: #ffffff;
   --link-color: #45dde3;
