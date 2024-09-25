@@ -2,6 +2,7 @@
 @import './styles/variables.css';
 @import './styles/global.css';
 @import './styles/typography.css';
+@import './Components/header/header.css';
 
 #root {
   max-width: 1280px;
@@ -16,9 +17,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }

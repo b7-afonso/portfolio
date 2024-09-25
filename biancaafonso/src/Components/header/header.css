@@ -1,21 +1,19 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    /* font-family: 'Playfair Display', serif; */
-    font-weight: 400;
+.main-navigation {
+    display: flex;
+    justify-content: space-between;
 }
 
-h1 {
-    /* font-family: 'Playfair Display', serif; */
-    font-weight: 900;
+.logo {
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
+
+.main-navigation .menu-item {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.main-navigation .menu-item a {
     color: var(--primary-color);
 }
 
-h2 {
-    font-weight: 900;
-    font-style: italic;
-    color: var(--secondary-color);
-}
