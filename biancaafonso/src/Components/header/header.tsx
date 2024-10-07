@@ -1,3 +1,5 @@
+import Navbar from "../Navbar/navbar"
+
 function Header () {
   return(
     <div>
@@ -19,11 +21,7 @@ function Header () {
       </div>
       <nav className="main-navigation">
       <div className="logo">Bianca Afonso</div>
-        <ul>
-          <li className="menu-item"><a href="/">Home</a></li>
-          <li className="menu-item"><a href="/about">About</a></li>
-          <li className="menu-item"><a href="/work">Work</a></li>
-        </ul>
+        <Navbar />
       </nav>
     </div>
   )
